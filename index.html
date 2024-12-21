@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مولد رمز QR | QR Code Generator</title>
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/cairo.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="wave-container">
+        <div class="wave"></div>
+    </div>
+    
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-qrcode"></i>
+            </div>
+            <h1>مولد رمز QR</h1>
+            <p>قم بإنشاء رمز QR الخاص بك مجاناً وبسهولة</p>
+        </header>
+
+        <main>
+            <div class="card qr-options">
+                <h2><i class="fas fa-cog"></i> إعدادات رمز QR</h2>
+                <div class="input-group">
+                    <label for="qr-text">
+                        <i class="fas fa-keyboard"></i>
+                        النص أو الرابط
+                    </label>
+                    <input type="text" id="qr-text" placeholder="أدخل النص أو الرابط هنا">
+                </div>
+
+                <div class="input-group">
+                    <label for="qr-color">
+                        <i class="fas fa-palette"></i>
+                        لون رمز QR
+                    </label>
+                    <input type="color" id="qr-color" value="#000000">
+                </div>
+
+                <div class="input-group">
+                    <label for="qr-size">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                        حجم رمز QR
+                    </label>
+                    <select id="qr-size">
+                        <option value="128">128x128</option>
+                        <option value="256" selected>256x256</option>
+                        <option value="512">512x512</option>
+                    </select>
+                </div>
+
+                <button id="generate-btn">
+                    <i class="fas fa-magic"></i>
+                    إنشاء رمز QR
+                </button>
+            </div>
+
+            <div class="card qr-result">
+                <h2><i class="fas fa-image"></i> معاينة رمز QR</h2>
+                <div class="qr-preview">
+                    <div id="qr-code"></div>
+                </div>
+                <button id="download-btn" class="hidden">
+                    <i class="fas fa-download"></i>
+                    تحميل رمز QR
+                </button>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p class="developer">
+                    تم التطوير بواسطة 
+                    <span class="name">
+                        <i class="fas fa-code"></i>
+                        Shadi Abdelslam
+                    </span>
+                    <i class="fas fa-heart"></i>
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/ishado" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <p class="copyright">
+                    <i class="far fa-copyright"></i>
+                    2024 جميع الحقوق محفوظة
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* cairo-regular - arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Cairo-Regular.ttf') format('truetype');
+}
+/* cairo-600 - arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  src: url('Cairo-Medium.ttf') format('truetype');
+}
+/* cairo-700 - arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('Cairo-Bold.ttf') format('truetype');
+}
