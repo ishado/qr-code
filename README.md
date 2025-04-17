@@ -2,6 +2,8 @@
 
 موقع بسيط لإنشاء رموز QR مجاناً، مشابه لموقع QR Code Monkey.
 
+https://ishado.github.io/qr-code/
+
 ## المميزات
 
 - إنشاء رمز QR لأي نص أو رابط
